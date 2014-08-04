@@ -683,7 +683,7 @@
                         <font key="font" metaFont="system"/>
                         <tabViewItems>
                             <tabViewItem label="Settings" identifier="1" id="IGM-4S-GC2">
-                                <view key="view" ambiguous="YES" id="iIh-Q3-Y69">
+                                <view key="view" id="iIh-Q3-Y69">
                                     <rect key="frame" x="10" y="33" width="432" height="298"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
@@ -733,9 +733,25 @@
                                 </view>
                             </tabViewItem>
                             <tabViewItem label="About" identifier="2" id="6vs-ra-pGa">
-                                <view key="view" id="Z2a-Kt-gu3">
+                                <view key="view" ambiguous="YES" id="Z2a-Kt-gu3">
                                     <rect key="frame" x="10" y="33" width="432" height="298"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8M7-uI-NHc">
+                                            <rect key="frame" x="192" y="206" width="48" height="48"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" imageFrameStyle="grayBezel" image="NSApplicationIcon" id="agX-RV-biM"/>
+                                        </imageView>
+                                        <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" setsMaxLayoutWidthAtFirstLayout="YES" translatesAutoresizingMaskIntoConstraints="NO" id="u9g-Bi-Atz">
+                                            <rect key="frame" x="15" y="154" width="402" height="34"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="CurrencyLive 0.1 (2014) dlugs@nethead.pl" id="c11-9l-QLI">
+                                                <font key="font" metaFont="system"/>
+                                                <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
+                                    </subviews>
                                 </view>
                             </tabViewItem>
                         </tabViewItems>
@@ -760,4 +776,7 @@
             </items>
         </menu>
     </objects>
+    <resources>
+        <image name="NSApplicationIcon" width="128" height="128"/>
+    </resources>
 </document>
