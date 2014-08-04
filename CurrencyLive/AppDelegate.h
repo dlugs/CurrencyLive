@@ -8,8 +8,12 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+@interface AppDelegate : NSObject <NSApplicationDelegate> {
+    NSStatusItem *statusItem;
+    IBOutlet NSMenu *menu;
+}
 
 @property (assign) IBOutlet NSWindow *window;
+@property (weak) IBOutlet NSTextFieldCell *intervalField;
 
 @end

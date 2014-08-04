@@ -13,11 +13,13 @@
 		1017811E198B746D00D3BFC5 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 1017811C198B746D00D3BFC5 /* Credits.rtf */; };
 		10178121198B746D00D3BFC5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10178120198B746D00D3BFC5 /* AppDelegate.m */; };
 		10178124198B746D00D3BFC5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10178122198B746D00D3BFC5 /* MainMenu.xib */; };
-		10178126198B746D00D3BFC5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10178125198B746D00D3BFC5 /* Images.xcassets */; };
 		1017812D198B746D00D3BFC5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1017812C198B746D00D3BFC5 /* XCTest.framework */; };
 		1017812E198B746D00D3BFC5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1017810D198B746D00D3BFC5 /* Cocoa.framework */; };
 		10178136198B746D00D3BFC5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 10178134198B746D00D3BFC5 /* InfoPlist.strings */; };
 		10178138198B746D00D3BFC5 /* CurrencyLiveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10178137198B746D00D3BFC5 /* CurrencyLiveTests.m */; };
+		10178144198B75EB00D3BFC5 /* dollar.png in Resources */ = {isa = PBXBuildFile; fileRef = 10178143198B75EB00D3BFC5 /* dollar.png */; };
+		10178146198BBCF100D3BFC5 /* euro.png in Resources */ = {isa = PBXBuildFile; fileRef = 10178145198BBCF100D3BFC5 /* euro.png */; };
+		1017814A198FB18300D3BFC5 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 10178149198FB18300D3BFC5 /* icon.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,12 +46,14 @@
 		1017811F198B746D00D3BFC5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		10178120198B746D00D3BFC5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		10178123198B746D00D3BFC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		10178125198B746D00D3BFC5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1017812B198B746D00D3BFC5 /* CurrencyLiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CurrencyLiveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1017812C198B746D00D3BFC5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		10178133198B746D00D3BFC5 /* CurrencyLiveTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CurrencyLiveTests-Info.plist"; sourceTree = "<group>"; };
 		10178135198B746D00D3BFC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		10178137198B746D00D3BFC5 /* CurrencyLiveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CurrencyLiveTests.m; sourceTree = "<group>"; };
+		10178143198B75EB00D3BFC5 /* dollar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dollar.png; sourceTree = "<group>"; };
+		10178145198BBCF100D3BFC5 /* euro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = euro.png; sourceTree = "<group>"; };
+		10178149198FB18300D3BFC5 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,7 +122,6 @@
 				1017811F198B746D00D3BFC5 /* AppDelegate.h */,
 				10178120198B746D00D3BFC5 /* AppDelegate.m */,
 				10178122198B746D00D3BFC5 /* MainMenu.xib */,
-				10178125198B746D00D3BFC5 /* Images.xcassets */,
 				10178114198B746D00D3BFC5 /* Supporting Files */,
 			);
 			path = CurrencyLive;
@@ -127,6 +130,9 @@
 		10178114198B746D00D3BFC5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				10178149198FB18300D3BFC5 /* icon.icns */,
+				10178145198BBCF100D3BFC5 /* euro.png */,
+				10178143198B75EB00D3BFC5 /* dollar.png */,
 				10178115198B746D00D3BFC5 /* CurrencyLive-Info.plist */,
 				10178116198B746D00D3BFC5 /* InfoPlist.strings */,
 				10178119198B746D00D3BFC5 /* main.m */,
@@ -230,9 +236,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10178146198BBCF100D3BFC5 /* euro.png in Resources */,
 				10178118198B746D00D3BFC5 /* InfoPlist.strings in Resources */,
-				10178126198B746D00D3BFC5 /* Images.xcassets in Resources */,
+				1017814A198FB18300D3BFC5 /* icon.icns in Resources */,
 				1017811E198B746D00D3BFC5 /* Credits.rtf in Resources */,
+				10178144198B75EB00D3BFC5 /* dollar.png in Resources */,
 				10178124198B746D00D3BFC5 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -466,6 +474,7 @@
 				1017813D198B746D00D3BFC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1017813E198B746D00D3BFC5 /* Build configuration list for PBXNativeTarget "CurrencyLiveTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +483,7 @@
 				10178140198B746D00D3BFC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
