@@ -5,34 +5,34 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>A567A6B3-C89D-418C-A2D8-C6B01A88A5D8</string>
+	<string>6FEF2CB6-BAA8-449C-A86F-D0D6DA8B760E</string>
 	<key>IDESourceControlProjectName</key>
 	<string>CurrencyLive</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>29958D6F-3707-4404-8966-AEA16806B023</key>
-		<string>https://github.com/dlugs/IPMenuletExample.git</string>
+		<key>65A5EF71-B0D2-4FC4-9664-4578AE8EF366</key>
+		<string>ssh://github.com/dlugs/CurrencyLive.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>CurrencyLive.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>29958D6F-3707-4404-8966-AEA16806B023</key>
+		<key>65A5EF71-B0D2-4FC4-9664-4578AE8EF366</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/dlugs/IPMenuletExample.git</string>
+	<string>ssh://github.com/dlugs/CurrencyLive.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>29958D6F-3707-4404-8966-AEA16806B023</string>
+	<string>65A5EF71-B0D2-4FC4-9664-4578AE8EF366</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>29958D6F-3707-4404-8966-AEA16806B023</string>
+			<string>65A5EF71-B0D2-4FC4-9664-4578AE8EF366</string>
 			<key>IDESourceControlWCCName</key>
 			<string>CurrencyLive</string>
 		</dict>
